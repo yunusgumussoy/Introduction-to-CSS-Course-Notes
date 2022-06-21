@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	
+	<head>
+	<meta charset="utf-8">
+	<title>CSS ID Seçiciler</title>
+		<style type="text/css">
+			h1,h2{
+				background-color: blueviolet;
+				color:chartreuse;				
+			}
+			.baslik{
+				background-color: aqua;
+				color:coral;
+			}
+			#idsecici{
+				background-color: crimson;
+				color:black;
+			}
+			div{
+				width:600px;
+				height: 250px;
+				background-color:brown;
+				color:aliceblue;
+			}
+			span{
+				color:gold;
+			}
+			em{
+				color:chartreuse;
+			}
+		</style>
+	</head>
+	<!-- 
+SEÇİCİLER
+
+ETİKET SEÇİCİSİ (a,div,p,h1-h6,span,em)
+CLASS SEÇİCİSİ (.)
+ID SEÇİCİSİ (#)
+EVRENSEL SEÇİCİ (*)
+-->
+
+	<body>
+		
+		<h1>CSS Seçiciler<strong>Burası h1 etiketi içindeki strong</strong></h1>
+		
+		<div>
+			<h2>Birinci div içindeki h2 düzeyinde başlık</h2>
+			<p>CSS Dersleri Div Etiketi</p>
+		</div>
+		
+		<div>
+			<h2>İkinci div içindeki h2 düzeyinde başlık</h2>
+			<p>İkinci div içindeki paragraf etiketi<a href="#">İkinci div içindeki paragraf etiketi içindeki link etiketi</a><span>devamında burası span etiketi<em>Burası spam etiketi içerisindeki em etiketi</em></span></p>
+		</div>
+		
+		<div>
+			<h1>Burası üçüncü divdeki h1 düzeyi başlık</h1>
+			<h3 class="baslik">Burası üçüncü divdeki h3 düzeyi başlık</h3>
+			Burası üçüncü div
+			
+			<div>
+				Burası üçüncü div içindeki ilk div
+			</div>
+			
+			<div id="idsecici">
+				Burası üçüncü div içindeki ikinci div
+			</div>
+			
+			<div class="baslik">
+				Burası üçüncü div içindeki üçüncü div
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

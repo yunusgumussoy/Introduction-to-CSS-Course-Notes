@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS ile Dikey Menü</title>
+	<style type="text/css">
+		
+		.menu{
+			width: 660px;
+			margin: 0 auto;
+			margin-top:50px;
+			
+		}
+		ul,li{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		ul li{
+			height: 50px;
+			width:100px;
+			margin-bottom: 1px;
+			
+		}
+		
+		ul li a:first-child{
+			border-radius:25px;
+		}
+		ul li a:last-child{
+			border-radius:25px;
+		}
+		
+		ul li a{
+			padding: 15px;
+			background-color: aqua;
+			color:white;
+			text-decoration: none;
+			margin-right: 1px;
+			display: block;
+		}
+		ul li a:hover{
+			background-color:aquamarine;
+		}
+	</style>
+</head>
+
+<body>
+	<ul class="menu">
+	<li><a href="#">Anasayfa</a></li>
+	<li><a href="#">Hakkımızda</a></li>
+	<li><a href="#">Ürünler</a></li>
+	<li><a href="#">Kurumsal</a></li>
+	<li><a href="#">Kampanya</a></li>
+	<li><a href="#">İletişim</a></li>
+	</ul>
+</body>
+</html>

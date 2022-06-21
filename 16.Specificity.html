@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	
+	<head>
+	<meta charset="utf-8">
+	<title>CSS Specificity</title>
+		
+		<style type="text/css">
+			li{
+				color:blue;
+			}
+			.yunus{ /*class li ye göre öncelikli*/
+				color:red;
+			}
+			#yeni{ /*id class a göre öncelikli*/
+				color:green;
+			}
+			/*aynı düzeydeki stylelardan en alttaki geçerli olur*/
+		
+		</style>
+		
+	</head>
+
+	<body>
+		<li>Bilgisayar</li>
+		<li id="yeni" class="yunus">Telefon</li>
+		<li class="yunus">Tablet</li>
+		
+	</body>
+	
+</html>
